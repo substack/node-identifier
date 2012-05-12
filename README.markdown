@@ -6,6 +6,8 @@ Generate random javascript identifiers.
 This is probably only useful if you're doing hackish tricks involving AST
 transforms or whatevers.
 
+[![build status](https://secure.travis-ci.org/substack/node-identifier.png)](http://travis-ci.org/substack/node-identifier)
+
 example
 =======
 

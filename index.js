@@ -1,10 +1,11 @@
-module.exports = function (n) {
-    function chr (s) { return s.charCodeAt(0) }
-    function pick (xs) {
-        var x = xs[Math.floor(Math.random() * xs.length)];
-        return String.fromCharCode(x);
-    }
+function chr (s) { return s.charCodeAt(0) }
+
+function pick (xs) {
+    var x = xs[Math.floor(Math.random() * xs.length)];
+    return String.fromCharCode(x);
+}
     
+module.exports = function (n) {
     var letters = [ chr('_') ];
     for (var i = 0; i < 26; i++) letters.push(chr('A') + i);
     for (var i = 0; i < 26; i++) letters.push(chr('a') + i);
